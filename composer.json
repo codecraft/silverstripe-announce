@@ -1,6 +1,6 @@
 {
-    "name": "codecraft/silverstripe-announce",
-    "description": "Add a queue of announcements to the SilverStripe controller",
+    "name": "jakxnz/silverstripe-announce",
+    "description": "Display announcement messages for SilverStripe",
     "keywords": ["silverstripe", "announcements", "modal", "callout", "popup", "alert", "message"],
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
@@ -31,7 +31,6 @@
             "dev-master": "0.1.x-dev"
         }
     },
-    "target-dir": "announce",
     "minimum-stability": "dev",
     "prefer-stable": true
 }
