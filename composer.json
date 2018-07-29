@@ -1,0 +1,37 @@
+{
+    "name": "codecraft/silverstripe-announce",
+    "description": "Add a queue of announcements to the SilverStripe controller",
+    "keywords": ["silverstripe", "announcements", "modal", "callout", "popup", "alert", "message"],
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Jackson Darlow",
+            "email": "jackson@codecraft.nz"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/codecraft/silverstripe-announce/issues"
+    },
+    "require": {
+        "php": ">=5.6",
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeCraft\\Announce\\": "src/",
+            "CodeCraft\\Announce\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "target-dir": "announce",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

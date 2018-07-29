@@ -1,0 +1,6 @@
+---
+Name: announce
+---
+SilverStripe\Control\Controller:
+  extensions:
+    - CodeCraft\Announce\Extension\ControllerExtension
