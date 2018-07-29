@@ -8,9 +8,20 @@ Announcements can be templated to match component libraries such as Bootstrap.
 
 ## Installation
 
+**Note:** For a similar module in SilverStripe 3, consider using [axyr/silverstripe-flashmessage](https://github.com/axyr/silverstripe-flashmessage)
+
+### Requirements
+
+* SilverStripe >= 4.0
+* PHP >= 5.6
+
 **Composer**
 
-`composer require codecraft/silverstripe-announce`
+`composer require jakxnz/silverstripe-announce`
+
+**SilverStripe**
+
+`dev/build?flush=all` your SilverStripe project.
 
 ## Introduction
 
@@ -213,11 +224,6 @@ Announcements::get()->getByType(Announcement::MODAL);
 $Announcements.ByType('modal');
 ```
 _Can be 'default', 'modal', 'tray', 'message', 'callout'_
-
-## Requirements
-
-* SilverStripe >= 4.0
-* PHP >= 5.6
 
 ## License
 
