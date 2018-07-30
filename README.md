@@ -225,6 +225,10 @@ $Announcements.ByType('modal');
 ```
 _Can be 'default', 'modal', 'tray', 'message', 'callout'_
 
+## Limitations
+
+* Does not have any CMS editable functionality
+
 ## License
 
 Modified BSD License
@@ -244,4 +248,6 @@ Read the [license](https://github.com/codecraft/silverstripe-announce/blob/maste
     * Create an email Announcement type
 * An announcement history for user-focused announcements
     * Flag announcement when viewed by user
+* Add CMS editable announcements, similiar to [nzta/silverstripe-sitebanner](https://github.com/NZTA/silverstripe-sitebanner)
+ * Version CMS editable announcements
 

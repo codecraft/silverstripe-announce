@@ -120,11 +120,9 @@ class Announcement extends ViewableData
             }
         }
 
-        $this->extend('updateDefaultActions', $actions);
+        $actions = $this->getActions();
 
-        foreach ($actions as $action) {
-            $this->getActions()->push($action);
-        }
+        $this->extend('updateDefaultActions', $actions);
 
         parent::__construct();
     }
